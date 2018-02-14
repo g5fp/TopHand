@@ -1,4 +1,3 @@
-
 package tophand;
 
 import java.util.Arrays;
@@ -84,6 +83,7 @@ public class Hand {
 
 	public boolean isTwoPair(String faces) {
 		cardCount(faces);
+		
 		return getTwoPair();
 	}
 
@@ -122,7 +122,7 @@ public class Hand {
 		sortedFacesAceHigh = sortedFacesAceHigh.replaceAll("E", "K");
 		sortedFacesAceHigh = sortedFacesAceHigh.replaceAll("F", "A");
 		return sortedFacesAceHigh;
-	}
+	} // end sortedFacesHigh
 
 	// identical except sorting with Ace high
 	public String sortAceLow(String faces) {
@@ -159,7 +159,7 @@ public class Hand {
 			suits = suits + hand[i].toString().substring(1, 2);
 		}
 		return suits;
-	}
+	}// end getSuits
 
 	// parse the hand object to get just the card faces and store in the
 	// variable faces
