@@ -15,7 +15,7 @@ public class CardTest {
 		//	System.out.println("Enter the number of hands to deal:");
 		//	int handsToDeal= input.nextInt();
 		//	for (int j = 0; j < handsToDeal; j++) {
-		for (int j = 0; j < 1000; j++) {
+		for (int j = 0; j < 100000; j++) {
 			System.out.println("Hands Dealt:" + (j+1));
 			// create deck of cards from DeckOfCards class
 			DeckOfCards myDeckOfCards = new DeckOfCards();

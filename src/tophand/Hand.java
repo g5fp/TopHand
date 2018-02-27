@@ -63,11 +63,10 @@ public class Hand {
 	public boolean isStraight(String faces) {
 
 		return (faces.contains("A2345")) || (faces.contains("23456"))
-				|| (faces.contains("23456")) || (faces.contains("34567"))
-				|| (faces.contains("45678")) || (faces.contains("56789"))
-				|| (faces.contains("6789T")) || (faces.contains("789TJ"))
-				|| (faces.contains("89TJQ")) || (faces.contains("9TJQK"))
-				|| (faces.contains("TJQKA"));
+				|| (faces.contains("34567")) || (faces.contains("45678"))
+				|| (faces.contains("56789")) || (faces.contains("6789T"))
+				|| (faces.contains("789TJ")) || (faces.contains("89TJQ"))
+				|| (faces.contains("9TJQK")) || (faces.contains("TJQKA"));
 	}
 
 	// check for 3 of a kind
